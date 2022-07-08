@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>webstudio</title>
+</head>
+<body>
+
+    <header>
+        <p style="color: black;"><span style="color: #2196F3;">Web</span>Studio</p>
+     <nav>   
+        <ul>
+            
+            <li>Студия</li>
+            <li>Портфолио</li>
+            <li>Контакты</li>
+        </ul>
+    </nav>
+        <p>info@devstudio.com</p>
+        <p>+38 096 111 11 11</p>
+    </header>
+<div>
+    <main>
+    <h1>Эфективное решение для вашего бизнеса</h1>
+    <button>Заказать услугу</button>
+</div>
+<ul>
+    <li>
+        <p style="font-weight: bold;">Внимание к деталям</p>
+        <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+    </li>
+    <li>
+        <p style="font-weight: bold;">Пунктуальность</p>
+        <p>Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+    </li>
+    <li>
+        <p style="font-weight: bold;">Планирование</p>
+        <p>Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+    </li>
+    <li>
+        <p style="font-weight: bold;">Современные технологии</p>
+        <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+    </li>
+</ul>
+<h2>Чем мы занимаемся</h2>
+<img src="images/img.png" alt="уверенность">
+<img src="images/img2.png" alt="уверенность2">
+<img src="images/img3.png" alt="уверенность3">
+</main>
+<div>
+    <h2>
+        Наша команда
+    </h2>
+    <div class="card" id="card1">
+        <img style="width: 260px; height: 270px"; src="images/igor1.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Игорь Демьянко</h5>
+          <p class="card-text">Product Designer</p>
+        </div>
+      </div>
+      <div id="card2" style="height: 368px; width: 270px">
+        <img class="card-img-top" style="width: 260px; height: 270px"; src="images/olga2.jpg" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">Ольга Репина</h5>
+          <p class="card-text">Frontend Developer</p>
+        </div>
+        <div class="card" id="card1">
+            <img style="width: 260px; height: 270px"; src="images/nicolaj3.jpg" alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title">Николай Тарасов</h5>
+              <p class="card-text">Marketing</p>
+            </div>
+         <div class="card" id="card1">
+                <img style="width: 260px; height: 270px"; src="images/michal4.jpg" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title">Михаил Ермаков</h5>
+                  <p class="card-text">UI Designer</p>
+                </div>  
+            <footer>
+                <ul>
+                    <li><p style="color: black;"><span style="color: #2196F3;">Web</span>Studio</p></li>
+                    <li><address>г.Киев ул.Безулицы</address></li>
+                    <li><p>info@example.com</p></li>
+                    <li><p>+38 111 111 11 11</p></li>
+                </ul>
+            </footer>
+</div>
+</body>
+</html>
